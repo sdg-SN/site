@@ -145,12 +145,7 @@ languages:
   - en
   - es
 languages_public: []
-logos:
-  - language: ''
-    src: 'https://www.ansd.sn/themes/custom/ansd_front/logo.png'
-    alt: >-
-      Agence Nationale de la Statistique et de la Démographie (ANSD) du Sénégal
-      | «Un centre d&#039;excellence dans un Système statistique national fort
+logos: []
 map_layers: []
 map_options:
   disaggregation_controls: false
