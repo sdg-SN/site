@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: Senegal
+  adjective: Senegalese
 create_goals:
   previous_next_links: false
   goal_content_heading: ''
@@ -56,9 +56,9 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: statsenegal@ansd.sn
+  suggestions: statsenegal@ansd.sn
+  functional: demba.diack@ansd.sn
 empty_metadata_placeholder: ''
 empty_metadata_placeholder_sources: ''
 environment: staging
@@ -143,9 +143,14 @@ indicator_tabs:
   tab_4: ''
 languages:
   - en
-  - es
+  - fr
 languages_public: []
-logos: []
+logos:
+  - language: ''
+    src: 'https://www.ansd.sn/themes/custom/ansd_front/logo.png'
+    alt: >-
+      Agence Nationale de la Statistique et de la Démographie (ANSD) du Sénégal
+      | «Un centre d&#039;excellence dans un Système statistique national fort
 map_layers: []
 map_options:
   disaggregation_controls: false
