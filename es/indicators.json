@@ -435,7 +435,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/es/3-b-3/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-c-1",
@@ -451,7 +451,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/es/3-d-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-d-2",
@@ -459,7 +459,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/es/3-d-2/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
