@@ -66,9 +66,9 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: 'https://x.com/statsenegal'
     translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
+  - path: 'https://www.facebook.com/ANSD.Senegal/?locale=fr_FR'
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
@@ -80,13 +80,14 @@ frontpage_cards:
     button_link: ''
     rule_color: ''
   - title: Membrers of team
-    content: |
-      See above all the administratives companies who particpates on producing data.
+    content: >
+      See above all the administratives companies who particpates on producing
+      data.
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
     rule_color: ''
-  - title: Download all the the data you need on the Senegal 
+  - title: Download all the the data you need on the Senegal
     content: |
       All the format are accessibles in the Senegal portal.
     include: ''
