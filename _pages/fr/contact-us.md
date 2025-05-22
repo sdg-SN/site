@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact Us
+title: Contact us
 language: fr
 permalink: /fr/contact-us/
 ---
