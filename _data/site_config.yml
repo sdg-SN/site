@@ -79,7 +79,7 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Membrers of team
+  - title: frontpage.membersofteam
     content: >
       See above all the administratives companies who particpates on producing
       data.
