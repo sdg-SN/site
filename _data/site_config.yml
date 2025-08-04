@@ -79,20 +79,18 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Membrers of team
-    content: >
-      See above all the administratives companies who particpates on producing
-      data.
+  - title: frontpage.membersofteam
+    content: membersofteam_content
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: 'https://www.ansd.sn/'
     rule_color: ''
-  - title: Download all the the data you need on the Senegal
+  - title: frontpage.download_all_the_data
     content: |
       All the format are accessibles in the Senegal portal.
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: 'https://www.ansd.com'
     rule_color: ''
 frontpage_goals_grid:
   title: frontpage.heading_short
