@@ -80,14 +80,13 @@ frontpage_cards:
     button_link: ''
     rule_color: ''
   - title: frontpage.membersofteam
-    content: membersofteam_content
+    content: frontpage.membersofteam_content
     include: ''
     button_label: Read more
     button_link: 'https://www.ansd.sn/'
     rule_color: ''
   - title: frontpage.download_all_the_data
-    content: |
-      All the format are accessibles in the Senegal portal.
+    content: frontpage.download_all_the_data
     include: ''
     button_label: Read more
     button_link: 'https://www.ansd.com'
