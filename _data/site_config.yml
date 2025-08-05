@@ -89,7 +89,7 @@ frontpage_cards:
     content: frontpage.right_card_info_content
     include: ''
     button_label: frontpage.read_more
-    button_link: 'https://www.ansd.com'
+    button_link: 'https://www.ansd.sn/'
     rule_color: ''
 frontpage_goals_grid:
   title: frontpage.heading_short
