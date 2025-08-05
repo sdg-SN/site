@@ -79,18 +79,11 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: frontpage.membersofteam
-    content: frontpage.membersofteam_content
-    include: ''
-    button_label: frontpage.read_more
-    button_link: 'https://www.ansd.sn/'
-    rule_color: ''
-  - title: frontpage.right_card_info
-    content: frontpage.right_card_info_content
-    include: ''
-    button_label: frontpage.read_more
-    button_link: 'https://www.ansd.sn/'
-    rule_color: ''
+  - title: frontpage.second_header
+    content: frontpage.second_content
+
+  - title: frontpage.third_header
+    content: frontpage.third_content
 frontpage_goals_grid:
   title: frontpage.heading_short
   description: frontpage.instructions_shorter
