@@ -110,6 +110,8 @@ ignored_disaggregations:
   - COMMENT_OBS
   - TIME_DETAIL
   - NATURE
+  - COMPOSITE_BREAKDOWN
+  - UNIT_MULT
 indicator_config_form:
   enabled: true
   dropdowns: []
