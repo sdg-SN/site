@@ -5,31 +5,31 @@ permalink: /fr/about/
 layout: page
 ---
 
-## Table of contents
-- [About this site](#about-this-site)
-- [Need more info?](#need-more-info)
-- [Feedback](#feedback)
-
+## Table des matières
+- [À propos de ce site](#about-this-site)
+- [Retours](#feedback)
 
 The [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs) are a universal call to action to:
+* Mettre fin à la pauvreté
+* Protéger la planète
+* Améliorer la vie et les perspectives de chacun, partout dans le monde
 
-  * end poverty
-  
-  * protect the planet
-  
-  * improve the lives and prospects of everyone, everywhere
+Les 17 Objectifs ont été adoptés par tous les États membres de l’ONU en 2015, dans le cadre du [Programme de développement durable à l’horizon 2030](https://sustainabledevelopment.un.org/post2015/transformingourworld).
 
-The 17 Goals were adopted by all UN Member States in 2015, as part of the [2030 Agenda for Sustainable Development](https://sustainabledevelopment.un.org/post2015/transformingourworld).
+## À propos de ce site
+La plateforme Sénégal ODD-SDMX est un outil national de suivi et de diffusion des données relatives aux Objectifs de développement durable (ODD). Elle a été mise en place par l'Agence nationale de la statistique et de la démographie (ANSD), en collaboration avec les ministères sectoriels et les partenaires techniques et financiers (DSNU, BAD et ONS-UK).
 
-## About this site
-This site is based on the open source [Open SDG](https://open-sdg.org/) platform.
-    
-Other countries or organisations wishing to reuse the Open SDG reporting platform are welcome to do so for free. The [Open SDG Quick Start Guide](https://open-sdg.readthedocs.io/en/latest/quick-start/) gives technical instructions on the quickest way to get a copy of the Open SDG platform up and running.
+Son objectif principal est de rendre les données statistiques sur les ODD accessibles, fiables et comparables afin de :
+* Suivre les progrès du Sénégal vers la réalisation des objectifs de l'Agenda 2030 ;
+* Renforcer la transparence et la redevabilité envers les citoyens et les partenaires ;
+* Faciliter la prise de décision fondée sur des données probantes ;
+* Harmoniser les statistiques nationales avec les normes internationales grâce au cadre SDMX (Statistical Data and Metadata eXchange).
+* La plateforme permet aux utilisateurs de :
+* Explorer les indicateurs ODD du Sénégal ;
+* Visualiser des graphiques, des cartes et des tableaux interactifs ;
+* Télécharger des données sous différents formats (Excel, CSV, SDMX) ;
+* Accéder aux métadonnées pour mieux comprendre les définitions et les méthodologies des indicateurs.
+* En rendant les données plus accessibles et interopérables, la plateforme contribue au renforcement du Système statistique national (SSN) et à l'intégration du Sénégal dans les initiatives régionales et internationales de suivi des ODD.
 
-If you have comments, feedback, or want to get involved with the Open SDG community please email <opensdg@outlook.com> or contact the [Open SDG GitHub](https://github.com/open-sdg/open-sdg).
-
-## Need more info?
-Answers to some specific questions about this website are included on our [frequently asked questions]({{ site.baseurl }}{% link _pages/faq.md %}) page.
-
-## Feedback
-To provide feedback on our SDG data please [contact us]({{ site.baseurl }}/contact-us)
+## Retour
+Pour nous faire part de vos commentaires sur nos données ODD, veuillez [contact us]({{ site.baseurl }}/contact-us)
