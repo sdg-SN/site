@@ -5,11 +5,14 @@ language: en
 permalink: /news/
 ---
 
-## 05 June 2025
+## 2024 Workshop organized by ECA
+First of all, there was a training session for the technical team responsible for setting up the platform, with a few pilot countries.
+
+## 2025
+Setup Seneal platefom 
+
+## 5,6 August 2025
 Launch of the Senegal SDG dissemination platform OPEN-SDG
 
-## 28 may 2025
-Workshop to implement an SDG index in Senegal 
-
-## 12 april 2025
-Training workshop on the SDMX standard and the configuration of the OPEN-SDG platform 
+## 29 August 2025
+Closing of the project 
