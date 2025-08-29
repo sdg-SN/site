@@ -25,11 +25,11 @@ country:
   name: Senegal
   adjective: Senegalese
 create_goals:
-  previous_next_links: false
+  previous_next_links: true
   goal_content_heading: ''
   goals: []
 create_indicators:
-  previous_next_links: false
+  previous_next_links: true
 create_pages:
   - filename: ''
     folder: /goals
@@ -48,8 +48,8 @@ custom_js:
   - /assets/js/custom.js
 data_edit_url: data
 data_fields:
-  units: ''
-  series: ''
+  units: 'UNIT_MEASURE'
+  series: 'SERIES'
 date_formats: []
 disclaimer:
   phase: ''
@@ -66,9 +66,9 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: 'https://x.com/statsenegal'
     translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
+  - path: 'https://www.facebook.com/ANSD.Senegal/?locale=fr_FR'
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
@@ -79,20 +79,11 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Membrers of team
-    content: |
-      See above all the administratives companies who particpates on producing data.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
-  - title: Download all the the data you need on the Senegal 
-    content: |
-      All the format are accessibles in the Senegal portal.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
+  - title: frontpage.second_header
+    content: frontpage.second_content
+
+  - title: frontpage.third_header
+    content: frontpage.third_content
 frontpage_goals_grid:
   title: frontpage.heading_short
   description: frontpage.instructions_shorter
@@ -114,7 +105,12 @@ header_language_toggle: dropdown
 hide_empty_metadata: true
 hide_single_series: true
 hide_single_unit: true
-ignored_disaggregations: []
+ignored_disaggregations: 
+  - SOURCE_DETAIL
+  - COMMENT_OBS
+  - TIME_DETAIL
+  - NATURE
+  - Progress
 indicator_config_form:
   enabled: true
   dropdowns: []
@@ -141,7 +137,7 @@ indicator_tabs:
   tab_4: ''
 languages:
   - en
-  - es
+  - fr
 languages_public: []
 logos: []
 map_layers: []
@@ -154,26 +150,7 @@ map_options:
     id: ''
     accessToken: ''
     attribution: ''
-  colorRange: chroma.brewer.BuGn
-  noValueColor: '#f0f0f0'
-  styleNormal:
-    weight: 1
-    opacity: 1
-    fillOpacity: 0.7
-    color: '#888888'
-    dashArray: ''
-  styleHighlighted:
-    weight: 1
-    opacity: 1
-    fillOpacity: 0.7
-    color: '#111111'
-    dashArray: ''
-  styleStatic:
-    weight: 2
-    opacity: 1
-    fillOpacity: 0
-    color: '#172d44'
-    dashArray: '5,5'
+  colorRange: 'opensdg.mapColors.default'
 menu:
   - path: /
     translation_key: general.home
@@ -208,9 +185,32 @@ meta_tags: []
 news:
   category_links: false
 progress_status:
-  status_heading: ''
+  status_heading: status.progress_status
   status_help: ''
-  status_types: []
+  status_types:
+    - value: not_available
+      label: status.progress_not_available
+      alt: status.progress_not_available
+    - value: deterioration
+      label: status.deterioration
+      image: assets/img/progress/red-gauge.png
+      alt: status.deterioration
+    - value: limited_progress
+      label: status.limited_progress
+      image: assets/img/progress/orange-gauge.png
+      alt: status.limited_progress
+    - value: moderate_progress
+      label: status.moderate_progress
+      image: assets/img/progress/yellow-gauge.png
+      alt: status.moderate_progress
+    - value: substantial_progress
+      label: status.substantial_progress
+      image: assets/img/progress/green-gauge.png
+      alt: status.substantial_progress
+    - value: target_achieved
+      label: status.target_achieved
+      image: assets/img/progress/target-achieved-gauge.png
+      alt: status.target_achieved
 progressive_web_app:
   enabled: true
   name: ODD-SGDD -Senegal
@@ -251,3 +251,4 @@ time_series_attributes:
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
+use_new_config_forms: true

@@ -5,5 +5,14 @@ language: en
 permalink: /news/
 ---
 
-## News and Events
-Check this page for news regarding the reporting of our statistics for global indicators and opportunities to contribute to measuring achievement of the sustainable development goals
+## 2024 Workshop organized by ECA
+First of all, there was a training session for the technical team responsible for setting up the platform, with a few pilot countries.
+
+## 2025
+Setup Seneal platefom 
+
+## 5,6 August 2025
+Launch of the Senegal SDG dissemination platform OPEN-SDG
+
+## 29 August 2025
+Closing of the project 
